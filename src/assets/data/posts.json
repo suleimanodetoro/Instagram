@@ -1,0 +1,127 @@
+[
+    {
+      "id": "1",
+      "createdAt": "19 December 2025",
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
+      "description": "After the acquisition of my company, I have decided to take my leg off the gas for a bit. I can't wait to share more pictures of the scenery I've been blessed to experience lately.",
+      "user": {
+        "id": "u1",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg",
+        "username": "suleimanodetoro"
+      },
+      "nofComments": 11,
+      "nofLikes": 34,
+      "comments": [
+        {
+          "id": "1",
+          "comment": "My babyyyyyyyyy",
+          "user": {
+            "id": "u1",
+            "username": "notkenny_"
+          }
+        },
+        {
+          "id": "2",
+          "comment": "Yo, this is sick man!",
+          "user": {
+            "id": "u1",
+            "username": "idrissandu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "createdAt": "19 December 2021",
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+      "user": {
+        "id": "u1",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
+        "username": "femiotedola"
+      },
+      "nofComments": 11,
+      "nofLikes": 34,
+      "comments": [
+        {
+          "id": "1",
+          "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+          "user": {
+            "id": "u1",
+            "username": "vadimnotjustdev"
+          }
+        },
+        {
+          "id": "2",
+          "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+          "user": {
+            "id": "u1",
+            "username": "vadimnotjustdev"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "createdAt": "19 December 2021",
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+      "user": {
+        "id": "u1",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg",
+        "username": "wizkid"
+      },
+      "nofComments": 11,
+      "nofLikes": 34,
+      "comments": [
+        {
+          "id": "1",
+          "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+          "user": {
+            "id": "u1",
+            "username": "vadimnotjustdev"
+          }
+        },
+        {
+          "id": "2",
+          "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+          "user": {
+            "id": "u1",
+            "username": "vadimnotjustdev"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "createdAt": "19 December 2021",
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellendus unde blanditiis. Eos fugiat dolorem ea fugit aut sapiente corrupti autem dolores deleniti architecto, omnis, amet unde dignissimos quam minima?",
+      "user": {
+        "id": "u1",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg",
+        "username": "alikodangote"
+      },
+      "nofComments": 11,
+      "nofLikes": 34,
+      "comments": [
+        {
+          "id": "1",
+          "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+          "user": {
+            "id": "u1",
+            "username": "vadimnotjustdev"
+          }
+        },
+        {
+          "id": "2",
+          "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. H",
+          "user": {
+            "id": "u1",
+            "username": "vadimnotjustdev"
+          }
+        }
+      ]
+    }
+  ]
+  
