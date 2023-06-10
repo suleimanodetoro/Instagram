@@ -1,4 +1,4 @@
-import {View, Text, FlatList, Image, useWindowDimensions} from 'react-native';
+import {View, Text, FlatList, Image, useWindowDimensions, ViewabilityConfig, ViewToken} from 'react-native';
 import React, {useState, useRef} from 'react';
 import styles from '../FeedPost/styles';
 import colors from '../../theme/colors';
@@ -12,11 +12,11 @@ const Carousel = ({images, onDoublePress}: ICarousel) => {
   const {width} = useWindowDimensions();
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
-  const viewabilityConfig = {
+  const viewabilityConfig: ViewabilityConfig = {
     itemVisiblePercentThreshold: 55, // do x when component is 50% visible
   };
   // Everytime the flatlist component is rerendered, the following function is recreated.
-  const onViewableItemsChanged = useRef(({viewableItems}) => {
+  const onViewableItemsChanged = useRef(({viewableItems}:{viewableItems : Array<ViewToken>}) => {
     if (viewableItems.length > 0) {
       setActiveImageIndex(viewableItems[0].index || 0);
     }

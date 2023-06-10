@@ -11,13 +11,17 @@ import Comment from '../Comment/Comment';
 import {IPost} from '../../types/models';
 import DoublePressable from '../DoublePressable/';
 import Carousel from '../Carousel/Carousel';
+import VideoPlayer from '../VideoPlayer/VideoPlayer';
+
 
 interface IFeedPost {
   post: IPost;
+  isVisible: boolean;
 }
 
 const FeedPost = (props: IFeedPost) => {
   const {post} = props;
+  const {isVisible}=props;
 
   const [descriptionExpended, setDescriptionExpanded] = useState(false);
   const toggleDescriptionExpansion = () => {
@@ -45,6 +49,9 @@ const FeedPost = (props: IFeedPost) => {
     );
   } else if (post.images) {
     content = <Carousel images={post.images} onDoublePress={toggleLikeState} />;
+  } else if (post.video) {
+    content=<VideoPlayer uri={post.video} paused={!isVisible}/>
+    
   }
 
   return (

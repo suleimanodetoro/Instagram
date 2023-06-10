@@ -1,5 +1,36 @@
 [
     {
+      "id": "video1",
+      "createdAt": "19 December 2024",
+      "video":"https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "description": "After watching the new trailer posted on instagram, I am more than excited to watch the new episode of Game of Thrones! Ahhhhhhhhhhhhhhhpleasesendmeabilliondollarsssssssss😆",
+      "user": {
+        "id": "u1",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg",
+        "username": "suleimanodetoro"
+      },
+      "nofComments": 11,
+      "nofLikes": 34,
+      "comments": [
+        {
+          "id": "1",
+          "comment": "I hate how this show ended",
+          "user": {
+            "id": "u1",
+            "username": "haroldobasi"
+          }
+        },
+        {
+          "id": "2",
+          "comment": "Remember this, what a sick episode man!",
+          "user": {
+            "id": "u1",
+            "username": "idrissandu"
+          }
+        }
+      ]
+    },
+    {
       "id": "1",
       "createdAt": "19 December 2025",
       "images": ["https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg", "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg","https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg"],
