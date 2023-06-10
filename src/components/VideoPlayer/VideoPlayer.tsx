@@ -2,17 +2,21 @@ import {StyleSheet, Text, View, Pressable} from 'react-native';
 import React, {useState} from 'react';
 import Video from 'react-native-video';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import DoublePressable from '../DoublePressable/DoublePressable';
+
 interface IVideo {
   uri: string;
   paused: boolean;
+  onDoublePress: () => void;
+
 }
-const VideoPlayer = ({uri,paused}: IVideo) => {
+const VideoPlayer = ({uri,paused,onDoublePress}: IVideo) => {
   const [muteState, setMuteState] = useState(true);
   const toggleMute = () => {
     setMuteState(v => !v);
   };
   return (
-    <View>
+    <DoublePressable onDoublePress={onDoublePress}>
       <Video
         source={{uri}}
         repeat
@@ -28,7 +32,7 @@ const VideoPlayer = ({uri,paused}: IVideo) => {
           color={'white'}
         />
       </Pressable>
-    </View>
+    </DoublePressable>
   );
 };
 

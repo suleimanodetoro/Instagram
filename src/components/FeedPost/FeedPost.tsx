@@ -50,7 +50,10 @@ const FeedPost = (props: IFeedPost) => {
   } else if (post.images) {
     content = <Carousel images={post.images} onDoublePress={toggleLikeState} />;
   } else if (post.video) {
-    content=<VideoPlayer uri={post.video} paused={!isVisible}/>
+    content=(
+        <VideoPlayer uri={post.video} paused={!isVisible} onDoublePress={toggleLikeState}/>
+
+    )
     
   }
 
