@@ -1,101 +1,102 @@
 [
   {
-    "id": "c1",
-    "comment": "Reprehenderit quo but reprehenderit consequuntur.",
+    "id": "1",
+    "comment": "Amazing shot! Love the composition and colors. Keep up the great work!",
     "user": {
-      "id": "u1",
+      "id": "100",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg",
-      "username": "vadimnotjustdev"
+      "username": "wanderlust"
     }
   },
   {
-    "id": "c2",
-    "comment": "Dicta perspiciatis natus. Nihil perspiciatis. Incididunt. Dolor aliquam commodo eius but incididunt nor id aliquid. Sint quae eiusmod aliquid do nemo nor quasi.",
+    "id": "2",
+    "comment": "This is breathtaking! The scenery is absolutely stunning. I wish I could be there!",
     "user": {
-      "id": "u1",
+      "id": "200",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
-      "username": "vadimnotjustdev"
+      "username": "adventuregram"
     }
   },
   {
-    "id": "c3",
-    "comment": "nventore enim quaerat tempor nor quis aperiam. Magni illum id and omnis ab. Quae.",
+    "id": "3",
+    "comment": "Your photos always inspire me. I love how you capture the beauty in the simplest moments.",
     "user": {
-      "id": "u1",
+      "id": "300",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg",
-      "username": "vadimnotjustdev"
+      "username": "naturelover"
     }
   },
   {
-    "id": "c4",
-    "comment": "Inventore illo. Vel id numquam. Nesciunt. Illum. Eius sunt but dolores or omnis ma",
+    "id": "4",
+    "comment": "Absolutely mesmerizing! This photo evokes so much emotion. You're incredibly talented!",
     "user": {
-      "id": "u1",
+      "id": "400",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg",
-      "username": "vadimnotjustdev"
+      "username": "photoholic"
     }
   },
   {
-    "id": "c5",
-    "comment": " anim, elit. Nulla sed, omnis explicabo yet aliqua but est but ex. Nisi. Voluptate mollit. Numquam velit illo. Lorem irure. Eiusmod commodi so occaecat dicta, or ",
+    "id": "5",
+    "comment": "Wow! I can't get enough of your feed. Every photo is a work of art. Keep it coming!",
     "user": {
-      "id": "u1",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
-      "username": "vadimnotjustdev"
-    }
-  },
-  {
-    "id": "c6",
-    "comment": "Quo autem nostrud.",
-    "user": {
-      "id": "u1",
+      "id": "500",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg",
-      "username": "vadimnotjustdev"
+      "username": "visualsociety"
     }
   },
   {
-    "id": "c7",
-    "comment": "Ex vel. Ex sed for ea so doloremque eaque so magni, reprehenderit. Vitae. Pers ",
+    "id": "6",
+    "comment": "Your creativity knows no bounds. This is next-level photography. Absolutely love it!",
     "user": {
-      "id": "u1",
+      "id": "600",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
-      "username": "vadimnotjustdev"
+      "username": "artistic_eye"
     }
   },
   {
-    "id": "c8",
-    "comment": "Ex vel. Ex sed for ea so doloremque eaque so magni, reprehenderit. Vitae. Pers ",
+    "id": "7",
+    "comment": "I'm speechless. This photo tells a story and it's incredibly captivating. Keep shining!",
     "user": {
-      "id": "u1",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
-      "username": "vadimnotjustdev"
+      "id": "700",
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg",
+      "username": "storyteller"
     }
   },
   {
-    "id": "c9",
-    "comment": "Ex vel. Ex sed for ea so doloremque eaque so magni, reprehenderit. Vitae. Pers ",
+    "id": "8",
+    "comment": "You have such a unique perspective. Your photos always leave me in awe. Keep it up!",
     "user": {
-      "id": "u1",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
-      "username": "vadimnotjustdev"
+      "id": "800",
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg",
+      "username": "perspective_guru"
     }
   },
   {
-    "id": "c10",
-    "comment": "Ex vel. Ex sed for ea so doloremque eaque so magni, reprehenderit. Vitae. Pers ",
+    "id": "9",
+    "comment": "Incredible shot! The details and clarity are on point. You're definitely raising the bar!",
     "user": {
-      "id": "u1",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
-      "username": "vadimnotjustdev"
+      "id": "900",
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg",
+      "username": "shutterbug"
     }
   },
   {
-    "id": "c11",
-    "comment": "Ex vel. Ex sed for ea so doloremque eaque so magni, reprehenderit. Vitae. Pers ",
+    "id": "10",
+    "comment": "This photo deserves all the awards. Your talent shines through every frame. Absolutely stunning!",
     "user": {
-      "id": "u1",
+      "id": "1000",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg",
-      "username": "vadimnotjustdev"
+      "username": "picperfection"
+    }
+  },
+  {
+    "id": "11",
+    "comment": "I'm blown away by your photography skills. This shot is pure magic. Can't wait to see more!",
+    "user": {
+      "id": "1100",
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg",
+      "username": "capturesoul"
     }
   }
 ]
+
