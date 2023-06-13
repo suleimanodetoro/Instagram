@@ -1,8 +1,9 @@
 import {Image, StyleSheet, Text, View, TextInput} from 'react-native';
-import React from 'react';
+import React,{useState} from 'react';
 import user from '../../assets/data/user.json';
 import {size, weight} from '../../theme/fonts';
 import colors from '../../theme/colors';
+import {launchImageLibrary,launchCamera} from "react-native-image-picker"
 interface ICustomInput {
     label: string;
     multiline?: boolean;
@@ -18,13 +19,27 @@ const CustomInput = ({label,multiline=false}: ICustomInput) => {
 };
 
 const EditProfileScreen = () => {
+    const [selectedPhoto, setSelectedPhoto] = useState<null | Asset>(null)
     const onSubmit = () =>{
         console.warn("Submit")
+    };
+
+    const onChangePhoto = ()=>{
+        launchImageLibrary({mediaType:'photo'}, ({didCancel,errorCode,errorMessage, assets})=>{
+            if (!didCancel && !errorCode && assets && assets.length >0) {
+                setSelectedPhoto(assets[0].uri)
+                console.log(setSelectedPhoto);
+                
+                
+                
+            }
+
+        }); //First parameter is the media type, and second is the callback function used after picking is done.
     }
   return (
     <View style={styles.page}>
-      <Image source={{uri: user.image}} style={styles.avatar} />
-      <Text style={styles.textButton}>Change Profile Photo</Text>
+      <Image source={{uri: selectedPhoto || user.image}} style={styles.avatar} />
+      <Text onPress={onChangePhoto} style={styles.textButton}>Change Profile Photo</Text>
 
       <CustomInput label='Name'/>
       <CustomInput  label='Username'/>
