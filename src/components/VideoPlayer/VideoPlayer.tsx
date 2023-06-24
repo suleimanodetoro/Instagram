@@ -40,7 +40,7 @@ export default VideoPlayer;
 
 const styles = StyleSheet.create({
   video: {
-    width: '100^',
+    width: '100%',
     aspectRatio: 1,
   },
   muteButton: {

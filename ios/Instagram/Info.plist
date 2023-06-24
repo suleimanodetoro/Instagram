@@ -36,8 +36,10 @@
 		</dict>
 	</dict>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Access to camera roll is needed</string>
-	
+	<string>Select Media from Library</string>
+	<key>NSCameraUsageDescription<key>
+	<string>Use Camera to Capture Image</string>
+
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
@@ -57,7 +59,7 @@
 
 	<key>UIAppFonts</key>
 	<array>
-    	<string>AntDesign.ttf</string>
+		<string>AntDesign.ttf</string>
 		<string>Entypo.ttf</string>
 		<string>EvilIcons.ttf</string>
 		<string>Feather.ttf</string>
@@ -73,6 +75,6 @@
 		<string>Octicons.ttf</string>
 		<string>Zocial.ttf</string>
 		<string>Fontisto.ttf</string>
-    </array>
+	</array>
 </dict>
 </plist>

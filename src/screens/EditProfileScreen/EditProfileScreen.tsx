@@ -28,11 +28,10 @@ const EditProfileScreen = () => {
         launchImageLibrary({mediaType:'photo'}, ({didCancel,errorCode,errorMessage, assets})=>{
             if (!didCancel && !errorCode && assets && assets.length >0) {
                 setSelectedPhoto(assets[0].uri)
-                console.log(setSelectedPhoto);
-                
-                
-                
+                console.log(setSelectedPhoto)
             }
+            
+            
 
         }); //First parameter is the media type, and second is the callback function used after picking is done.
     }
